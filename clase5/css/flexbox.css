@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: hsl(210, 19%, 11%);
+    color: #fff;
+    font-family: "Figtree", serif;
+    width: 768px;
+    margin: auto;
+}
+h1, h2{
+    font-weight: 300;
+}
+section{
+    background-color: hsl(210, 19%, 24%);
+    height: 316px;
+}
+
+#horiz{
+    display: flex;
+    /* justify-content: start;  Predeterminado: hacia la izquierda */
+    /* justify-content: end;  Hacia la derecha */
+    /* justify-content: center; /* centrado */
+    /* ###### espacio sobrante ###### */
+    justify-content: space-between;
+}
+#vert{
+    display: flex;
+    /* align-items: start; /* Predeterminado: en la parte superior */
+    /* align-items: end; /* en la parte inferior */
+    align-items: center;
+}
+#ambos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    article{
+        background-color: hsl(210, 19%, 60%);
+        width: 128px;
+        height: 128px;
+        border: 1px solid white;
+    }
