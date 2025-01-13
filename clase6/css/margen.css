@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    width: 768px;
+    margin: auto;
+    background-color: #ebc5fe;
+    font-size: 24px;
+    font-family: Figtree, sans-serif;
+}
+
+#primero{
+    background-color: #fff;
+
+    /*display: flex;
+    justify-content: space-between;
+    justify-content: center;*/
+}
+    #primero img{
+        margin: 32px;
+    }

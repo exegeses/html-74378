@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 body{
     background-color: hsl(214, 39%, 7%);
     color: hsl(74, 51, 80);
+    font-family: Figtree, sans-serif;
 }
 header{
     width: 1100px;
@@ -14,7 +17,12 @@ header{
     align-items: center;
 }
 
+    header img{
+        margin-left: 16px;
+    }
+
     header nav a{
+        margin: 8px;
         font-size: 20px;
         color: #fff;
         text-decoration: none; /* quitar subrayado */
@@ -25,6 +33,26 @@ main{
     height: 700px;
     margin: auto;
 }
+
+/* hero banner */
+#hero{
+    height: 456px;
+    margin-top: 56px;
+    background-image: url(../imgs/hero-image.jpg);
+
+    display: flex;
+    align-items: center;
+}
+    #hero h1{
+        margin-left: 96px;
+        padding: 8px 16px;
+        background-color: hsla(0, 0%, 12%, .4);
+        font-size: 40px;
+        font-weight: 400;
+        color: hsl(0, 0%, 100%);  
+    }
+
+
 footer{
     width: 1100px; 
     height: 136px;
