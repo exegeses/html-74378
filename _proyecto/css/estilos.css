@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Evita el incremento del tamaño resultado de padding */
+}
+
 body{
     background-color: hsl(214, 39%, 7%);
     color: hsl(74, 51, 80);
@@ -30,7 +37,7 @@ header{
 
 main{
     width: 1100px;
-    height: 700px;
+    min-height: 700px;
     margin: auto;
 }
 
@@ -52,6 +59,28 @@ main{
         color: hsl(0, 0%, 100%);  
     }
 
+/* sección servicios */
+#servicios{
+    height: 408px;
+    margin-top: 56px;
+    padding: 32px 40px;
+    background-color: hsl(215, 37%, 10%);
+    display: flex;
+    justify-content: space-between;
+}
+
+    #servicios article{
+        width: 296px;
+        background-color: hsl(213, 38%, 14%);
+        color: #fff;
+    }
+        #servicios article h2{
+            margin: 8px 16px;
+            font-weight: 400;
+        }
+        #servicios article p{
+            margin: 0px 16px 16px 16px;
+        }
 
 footer{
     width: 1100px; 
